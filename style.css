@@ -1,0 +1,156 @@
+/* Fonts Links */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #929c9f;
+    padding: 5rem;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    gap: 4rem;
+}
+
+.left-section {
+    width: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    
+}
+
+.heading h1 {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 2rem;
+}
+
+.left-text {
+    width: 50%;
+    height: 662px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #EBEBEB;
+    padding: 1rem;
+}
+
+.right-text {
+    width: 50%;
+    height: 662px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #1E1E1E;
+    color: #ebebeb;
+    padding: 1rem;
+}
+
+.left-text span:nth-child(1) {
+    color: #1E1E1E;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 1rem;
+}
+
+.left-text p:nth-child(2), .left-text .chid-three {
+    color: #1E1E1E;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+.left-text .chid-three {
+    margin-top: 1rem;
+}
+
+.left-text span {
+    color: #1E1E1E;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.right-text span:nth-child(1) {
+    color: #F8F8F8;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 1rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+.right-text p:nth-child(2), .right-text span {
+    color: #F8F8F8;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.right-text .Social {
+    padding-right: 0.6rem;
+}
+
+.right-text p:nth-child(2) {
+    margin-bottom: 1rem;
+}
+
+.right-text .chlid-three {
+    color: #F8F8F8;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.right-section {
+    width: 50%;
+    height: 769px;
+    background: url(images/Rectangle\ 23.png) no-repeat center / cover;
+    border-radius: 30px;
+}
+
+/* .right-section img {
+    width: 100%;
+    height: 100%;
+} */
+
